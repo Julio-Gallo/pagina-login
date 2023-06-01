@@ -10,6 +10,11 @@
         width: 80vw;
     }
 
+    section#login {
+        width: 80vw;
+        height: 280px;
+    }
+
     section#login > div#imagem {
         float: left;
         width: 30%;
@@ -29,7 +34,8 @@
         background-image: linear-gradient(to top, brown, darkorange);
     }
     section#login {
-        width: 950px;        
+        width: 950px; 
+        height: 350px;       
     }
 
     section#login > div#imagem {
@@ -45,10 +51,10 @@
     }
 
     div#form > h1 {
-        font-size: 1.8em;
+        font-size: 1.1em;
     }
 
     div#form > p {
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 20px 0px;
     }
-}
