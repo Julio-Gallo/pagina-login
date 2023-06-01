@@ -14,7 +14,7 @@ Lilás: #5f2c82
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: darkorange;
     height: 100vh;
     width: 100vw;
 }
@@ -60,5 +60,57 @@ div#form > h1 {
 }
 
 div#form > p {
+    font-size: .8em;
+}
+
+form > div.campo {
+    background-color: rgb(104, 175, 205);
+    display: block;
+    width: 100;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;    
+}
+
+    div.campo > label {
+        display: none;
+    }
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: brown;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    margin-top: 5px;
+    background-color: rgb(235, 61, 61);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: brown;
+}
+
+form > a.botao > i {
     font-size: .8em;
 }
